@@ -1,6 +1,11 @@
+# Keep the JSON data files but ignore sensitive ones
+client/Data/users.json
+
 # Dependencies
 node_modules/
 /node_modules
+yarn.lock
+package-lock.json
 
 # Environment files
 .env
